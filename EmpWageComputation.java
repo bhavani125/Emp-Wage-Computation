@@ -11,12 +11,12 @@ public class EmpWageComputation
      if(empcheck == isFullTime)
      {
        System.out.println("Employee is present");
-       WorkingHrs=16;
+       WorkingHrs=8;
      }
      else if(empcheck == isPartTime)
      {
         System.out.println("Employee is present for PartTime");
-        WorkingHrs=8;
+        WorkingHrs=4;
      }
      else
       {
