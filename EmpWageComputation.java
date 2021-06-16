@@ -12,11 +12,11 @@ public class EmpWageComputation
      {
        case 1:
            System.out.println("Employee is present FullTime");
-           WorkingHrs=16;
+           WorkingHrs=8;
            break;
        case 2:
           System.out.println("Employee is present for PartTime");
-          WorkingHrs=8;
+          WorkingHrs=4;
           break;
        default:
         System.out.println("Employee is Absent");
